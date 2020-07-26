@@ -23,6 +23,15 @@
 </head> 
 
 <body>    
+
+<?php
+if($_POST['email'])
+{
+    system("alert " .  $_POST['email']);
+    echo "<p><center>Thank you for reaching out! You will be contacted by email shortly.</center></p>\n";
+}
+?>
+
     <header class="header">	    
         <div class="branding">
             <div class="container-fluid position-relative py-3">
