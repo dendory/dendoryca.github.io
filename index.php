@@ -27,7 +27,7 @@
 <?php
 if($_POST['email'])
 {
-    system("alert \"New contact registered: " .  filter_var($_POST['email'], FILTER_SANITIZE_EMAIL) . "\"");
+    system("alert \"New contact registered: " .  filter_var($_POST['email'], FILTER_SANITIZE_EMAIL) . " - " . $_SERVER['REMOTE_ADDR'] . "\"");
     echo "<div class='author-section section theme-bg-primary text-center mb-5'><p><br><b>Thank you for reaching out! You will be contacted by email shortly.</b><br></p></div>\n";
 }
 ?>
