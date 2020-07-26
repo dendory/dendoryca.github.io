@@ -196,7 +196,7 @@ if($_POST['email'])
 	    <div class="container">
 		    <div class="lead-form-wrapper single-col-max mx-auto theme-bg-light rounded p-5">
 			    <h2 class="form-heading text-center">Contact us</h2>
-			    <div class="form-intro text-center mb-3">You can contact us email at <a href='mailto:contact@dendory.ca'>contact@dendory.ca</a>, by phone at (514) 243-8176, or enter your contact details here and we will get back to you within 24h.</div>
+			    <div class="form-intro text-center mb-3">You can contact us by email at <a href='mailto:contact@dendory.ca'>contact@dendory.ca</a>, by phone at (514) 243-8176, or enter your contact details here and we will get back to you within 24h.</div>
 			    <div class="form-wrapper">
 				    <form class="form-inline justify-content-center flex-wrap" method="post" action="/">
 					<div class="form-group mr-md-2 mb-3 mb-md-0">
