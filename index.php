@@ -28,7 +28,7 @@
 if($_POST['email'])
 {
     system("alert \"New contact registered: " .  filter_var($_POST['email'], FILTER_SANITIZE_EMAIL) . "\"");
-    echo "<div class='author-section section theme-bg-primary py-5 text-center mb-5'>Thank you for reaching out! You will be contacted by email shortly.</div>\n";
+    echo "<div class='author-section section theme-bg-primary text-center mb-5'><b>Thank you for reaching out! You will be contacted by email shortly.</b></div>\n";
 }
 ?>
 
