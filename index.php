@@ -27,8 +27,8 @@
 <?php
 if($_POST['email'])
 {
-    system("alert " .  $_POST['email']);
-    echo "<p><center>Thank you for reaching out! You will be contacted by email shortly.</center></p>\n";
+    system("alert " .  filter_var($_POST['email'], FILTER_SANITIZE_EMAIL));
+    echo "<div class='author-section section theme-bg-primary py-5'><p><center>Thank you for reaching out! You will be contacted by email shortly.</center></p></div>\n";
 }
 ?>
 
