@@ -48,7 +48,7 @@
 					    </div><!--//subheading-->
 					    
 					    <div class="cta-holder">
-						    <a class="btn btn-primary mr-lg-2" href="mailto:contact@dendory.ca">Contact us</a>
+						    <a class="btn btn-primary mr-lg-2" href="#contactus">Contact us</a>
 						    <a class="btn btn-secondary scrollto" href="#benefits-section">Learn More</a>
 						    
 					    </div><!--//cta-holder-->
@@ -141,11 +141,61 @@
 			    </div><!--//item-->
 			</div><!--//row-->
 			<div class="text-center"><br>
-		        <p><a class="btn btn-primary" href="mailto:contact@dendory.ca">Contact us to setup a call</a></p>
+		        <p><a class="btn btn-primary" href="#contactus">Contact us to setup a call</a></p>
 		    </div>
 	    </div><!--//container-->
     </section><!--//benefits-section-->
-        
+
+    <section class="audience-section py-5">
+	    <div class="container">
+		    <h2 class="section-heading text-center mb-4">Projects</h2>
+		    <div class="section-intro single-col-max mx-auto text-center mb-5">
+			    Here are some of our past projects, giving you an idea of the technologies we've employed:
+		    </div><!--//section-intro-->
+		    <div class="audience mx-auto">
+			    <div class="item media">
+				    <div class="item-icon mr-3"><i class="fas fa-user-check"></i></div>
+				    <div class="media-body">
+					    <h4 class="item-title">High-Availability web app</h4>
+					    <div class="item-desc">This project involved the creation of an environment, through infrastructure-as-code, to provide high availability access to a web app running on Linux VMs in AWS, using a load balancer and backend database.</div>
+				    </div><!--//media-body-->
+			    </div><!--//item-->
+			    <div class="item media">
+				    <div class="item-icon mr-3"><i class="fas fa-user-check"></i></div>
+				    <div class="media-body">
+					    <h4 class="item-title">Office 365 email system</h4>
+					    <div class="item-desc">The creation and maintenance of an email system for an entire organization, through Microsoft Office 365, including distribution lists and legal holds.</div>
+				    </div><!--//media-body-->
+			    </div><!--//item-->
+			    <div class="item media">
+				    <div class="item-icon mr-3"><i class="fas fa-user-check"></i></div>
+				    <div class="media-body">
+					    <h4 class="item-title">CI/CD pipelines for building software</h4>
+					    <div class="item-desc">The implementation of a Jenkins system, with a robust pipeline, to allow developers to build, tests and deploy their software using a single click.</div>
+				    </div><!--//media-body-->
+			    </div><!--//item-->
+		    </div><!--//audience-->
+	    </div><!--//container-->
+    </section><!--//audience-section-->
+
+    <section id="contactus" class="form-section">
+	    <div class="container">
+		    <div class="lead-form-wrapper single-col-max mx-auto theme-bg-light rounded p-5">
+			    <h2 class="form-heading text-center">Contact us</h2>
+			    <div class="form-intro text-center mb-3">You can contact us directly at <a href='mailto:contact@dendory.ca'>contact@dendory.ca</a> or enter your email here and we will get back to you within 24h.</div>
+			    <div class="form-wrapper">
+				    <form class="form-inline justify-content-center flex-wrap" method="post" action="/contact.py">
+						<div class="form-group mr-md-2 mb-3 mb-md-0">
+							<label for="email" class="sr-only">Email</label>
+							<input type="email" class="form-control " id="email" placeholder="Your Email">
+						</div>
+						<button type="submit" class="btn btn-primary btn-submit mb-3 mb-md-0">Send</button>
+					</form>
+			    </div><!--//form-wrapper-->
+		    </div><!--//lead-form-wrapper-->
+	    </div><!--//container-->
+    </section><!--//form-section-->
+	
     <section id="author-section" class="author-section section theme-bg-primary py-5">
 	    <div class="container py-3">
 		    <div class="author-profile text-center mb-5">
