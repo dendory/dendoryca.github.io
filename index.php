@@ -68,7 +68,7 @@ if($_POST['email'])
 				    <div class="book-cover-holder">
 					    <img class="img-fluid book-cover" src="/assets/images/cover.png" alt="book cover" >
 					    <div class="book-badge d-inline-block shadow">
-						    Since<br>2019!
+						    Check out<br>our <a href='https://blog.dendory.ca'>blog</a>!
 					    </div>
 				    </div><!--//book-cover-holder-->
 				    <!--<div class="text-center"><a class="theme-link scrollto" href="#reviews-section">See all book reviews</a></div>-->
