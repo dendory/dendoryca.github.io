@@ -223,7 +223,7 @@ if($_POST['email'])
 		    <h2 class="section-heading text-center text-white mb-3">About Us</h2>
 		    <div class="author-bio single-col-max mx-auto">
 			    <p>Dendory Capital was started in 2019 by <a class="theme-link" href="mailto:patrick@dendory.ca" target="_blank">Patrick Lambert</a>, someone with over 15 years of tech experience in small businesses as well as large enterprises. From Tech Support Agent, to System Administrator and Solution Architect, Patrick now provides his services as a Cloud and DevOps Consultant.</p>
-			    <p>Dendory Capital is there to provide useful services for a low cost, giving you a higher ROI than you would get hiring an internal team. Our goal is to provide the latest technologies in an efficient and successful manner, delivered by our certified experts.</p>
+			    <p>Dendory Capital is an AWS and Microsoft partner, here to provide useful services for a low cost, giving you a higher ROI than you would get hiring an internal team. Our goal is to provide the latest technologies in an efficient and successful manner, delivered by our certified experts.</p>
 		    </div><!--//author-bio-->
 		    
 	    </div><!--//container-->
