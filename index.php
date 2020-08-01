@@ -20,6 +20,16 @@
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="/assets/css/theme.css">
 
+<!-- Global site tag (gtag.js) - Google Ads: 1015919283 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1015919283"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-1015919283');
+</script>
+
 </head> 
 
 <body>    
@@ -29,6 +39,12 @@ if($_POST['email'])
 {
     system("alert \"New contact registered: " .  filter_var($_POST['email'], FILTER_SANITIZE_EMAIL) . " - " . $_SERVER['REMOTE_ADDR'] . "\"");
     echo "<div class='author-section section theme-bg-primary text-center mb-5'><p><br><b>Thank you for reaching out! You will be contacted by email shortly.</b><br></p></div>\n";
+?>
+<!-- Event snippet for Contact conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-1015919283/KsSKCLa_z9kBELPltuQD'});
+</script>
+<?php
 }
 ?>
 
